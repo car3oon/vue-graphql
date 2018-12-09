@@ -1,12 +1,17 @@
 <template>
-  <div>
+  <v-container>
     <h1>Home</h1>
-    <v-btn color="primary">Button</v-btn>
-  </div>
+  </v-container>
 </template>
 
-<script lang="ts">
-import { Vue } from "vue-property-decorator";
+<script>
+export default {
+  name: "home"
+};
+</script>
 
-export default class Home extends Vue {}
+<script lang="ts">
+export default {
+  name: "home"
+};
 </script>
